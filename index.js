@@ -65,6 +65,18 @@ function anagrams(a, b) {
     return true;
 }
 
+function caesarCipher(message, shift) {
+    if (shift > 26) {
+        shift = shift % 26;
+    }
+    let cipherText = "";
+    // A = 65
+    // Z = 90
+    // a = 97
+    // z = 122
+    console.log("a".charCodeAt());
+}
+
 arrayEquals(
     "sorts array",
     arrayToSort.sort((a, b) => a - b),
